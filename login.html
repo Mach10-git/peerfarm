@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>PeerFarm - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="topbar">
+            <h3>PeerFarm</h3>
+            <div class="categories">
+                <a href="index.html">Головна</a>
+                <a href="#">Найпопулярніші</a>
+                <a href="#">Новинки</a>
+                <a href="#">Найвподобаніші</a>
+                <a href="#">Для слабких ПК</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="login-container">
+            <h2>Вхід</h2>
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Ім'я користувача" required>
+                <br>
+                <input type="password" name="password" placeholder="Пароль" required>
+                <br>
+                <br>
+                <button type="submit">Увійти</button>
+            </form>
+        </div>
+    </nav>
+    <footer>
+        <p>&copy; PeerFarm, 2026. Всі права захищені.</p>
+    </footer>
+</body>
+</html>

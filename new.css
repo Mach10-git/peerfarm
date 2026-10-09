@@ -11,6 +11,21 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    padding: 2px;
+    background-color: #e6e6e6;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+footer p {
+    color: inherit;
 }
 
 .topbar h3 {
@@ -78,4 +93,3 @@ body {
     margin-left: auto;
     margin-right: 1vw;
 }
-
